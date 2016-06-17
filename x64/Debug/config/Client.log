@@ -1,0 +1,34 @@
+Wed Jun 01 17:06:34 2016 us=979420 OpenVPN 2.3.0 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [PKCS11] [eurephia] [IPv6] built on Jan  8 2013
+Wed Jun 01 17:06:34 2016 us=981420 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Jun 01 17:06:34 2016 us=981420 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Wed Jun 01 17:06:35 2016 us=64425 Control Channel MTU parms [ L:1559 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Wed Jun 01 17:06:35 2016 us=65425 Socket Buffers: R=[8192->8192] S=[8192->8192]
+Wed Jun 01 17:06:35 2016 us=75426 Data Channel MTU parms [ L:1559 D:1450 EF:59 EB:4 ET:0 EL:0 ]
+Wed Jun 01 17:06:35 2016 us=75426 Local Options String: 'V4,dev-type tun,link-mtu 1559,tun-mtu 1500,proto TCPv4_CLIENT,cipher AES-256-CBC,auth SHA1,keysize 256,key-method 2,tls-client'
+Wed Jun 01 17:06:35 2016 us=75426 Expected Remote Options String: 'V4,dev-type tun,link-mtu 1559,tun-mtu 1500,proto TCPv4_SERVER,cipher AES-256-CBC,auth SHA1,keysize 256,key-method 2,tls-server'
+Wed Jun 01 17:06:35 2016 us=75426 Local Options hash (VER=V4): '5cb3f8dc'
+Wed Jun 01 17:06:35 2016 us=75426 Expected Remote Options hash (VER=V4): '898ae6c6'
+Wed Jun 01 17:06:35 2016 us=75426 Attempting to establish TCP connection with [AF_INET]175.1.124.56:1987
+Wed Jun 01 17:06:35 2016 us=84426 TCP connection established with [AF_INET]175.1.124.56:1987
+Wed Jun 01 17:06:35 2016 us=84426 TCPv4_CLIENT link local: [undef]
+Wed Jun 01 17:06:35 2016 us=84426 TCPv4_CLIENT link remote: [AF_INET]175.1.124.56:1987
+Wed Jun 01 17:06:35 2016 us=94427 TLS: Initial packet from [AF_INET]175.1.124.56:1987, sid=f2587270 abd9a529
+Wed Jun 01 17:06:35 2016 us=323440 VERIFY OK: depth=0, C=CN, ST=HUNAN, L=CHANGSHA, O=KECHEN, OU=KECHEN, CN=CHENBO, emailAddress=showbo1983@126.com
+Wed Jun 01 17:06:35 2016 us=762465 Data Channel Encrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Wed Jun 01 17:06:35 2016 us=762465 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jun 01 17:06:35 2016 us=762465 Data Channel Decrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Wed Jun 01 17:06:35 2016 us=762465 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jun 01 17:06:35 2016 us=762465 Control Channel: TLSv1, cipher TLSv1/SSLv3 AES256-SHA, 1024 bit RSA
+Wed Jun 01 17:06:35 2016 us=762465 [CHENBO] Peer Connection Initiated with [AF_INET]175.1.124.56:1987
+Wed Jun 01 17:06:37 2016 us=790581 SENT CONTROL [CHENBO]: 'PUSH_REQUEST' (status=1)
+Wed Jun 01 17:06:42 2016 us=812868 SENT CONTROL [CHENBO]: 'PUSH_REQUEST' (status=1)
+Wed Jun 01 17:06:47 2016 us=835155 SENT CONTROL [CHENBO]: 'PUSH_REQUEST' (status=1)
+Wed Jun 01 17:06:48 2016 us=74169 PUSH: Received control message: 'PUSH_REPLY,ping 20,ping-restart 60,topology p2p,route 12.0.0.0 255.255.255.0,ifconfig 12.0.0.22 12.0.0.21'
+Wed Jun 01 17:06:48 2016 us=74169 OPTIONS IMPORT: timers and/or timeouts modified
+Wed Jun 01 17:06:48 2016 us=74169 OPTIONS IMPORT: --ifconfig/up options modified
+Wed Jun 01 17:06:48 2016 us=74169 OPTIONS IMPORT: route options modified
+Wed Jun 01 17:06:48 2016 us=77169 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Wed Jun 01 17:06:48 2016 us=78169 open_tun, tt->ipv6=0
+Wed Jun 01 17:06:48 2016 us=78169 TAP-Windows adapter 'ros0001.9966.org' not found
+Wed Jun 01 17:06:48 2016 us=78169 Exiting due to fatal error
+WRWRWWWRRRRWWRRRWWWWRRRRRWWRWRWRR

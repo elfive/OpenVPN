@@ -1,2 +1,0 @@
-﻿mainApp.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
-  MyOpenVPN.vcxproj -> D:\System\Desktop\MyOpenVPN(2011-09-28)\Debug\MyOpenVPN.exe
